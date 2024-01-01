@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#game-container {
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+#pokemon-image {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: -400px;
+    filter:contrast(0%);
+}
+
+#guess-input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#score {
+    margin-top: 10px;
+}

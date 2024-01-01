@@ -1,0 +1,4 @@
+1. added enter to accept response
+2. cleared the input after response
+3. added name of pokemon on wrong guess
+4. added autocomplete for pokemon names
